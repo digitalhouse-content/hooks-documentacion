@@ -1,0 +1,18 @@
+{
+  "plugins": [],
+  "source": {
+    "include":["src"],
+    "includePattern": ".+\\.jsx?$|.js$",
+    "excludePattern": "(node_modules|documentacion)"
+  },
+  "templates":{
+    "cleverLinks": false,
+    "monospaceLinks": false
+  },
+  "opts":{
+    "destination": "./documentacion",
+    "recurse":true,
+    "verbose": true  
+  }
+}
+
